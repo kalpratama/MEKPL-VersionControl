@@ -11,11 +11,11 @@ public class PlayerMovement : MonoBehaviour
 
     public float groundDrag;
 
-    public float jumpForce;
+    public float jumpForce = 50;
     public float jumpCooldown;
     public float airMultiplier;
     bool readyToJump;
-    bool isSprinting;
+    bool isSprinting = false;
 
     [Header("Keybinds")]
     public KeyCode jumpKey = KeyCode.Space;
