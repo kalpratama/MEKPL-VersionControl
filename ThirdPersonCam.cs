@@ -10,7 +10,7 @@ public class ThirdPersonCam : MonoBehaviour
     public Transform playerObject;
     public Rigidbody rb;
 
-    public float rotationSpeed;
+    public float rotationSpeed = 12;
 
     private void Start()
     {
